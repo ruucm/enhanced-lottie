@@ -21,5 +21,6 @@ Example of Usage 2 - [Enhanced Lottie - Frame by Frame](https://www.dropbox.com/
 
 ## Contact
 
-Tweet [@ruucm](http://twitter.com/ruucm)<br />
+Tweet [@ruucm](http://twitter.com/ruucm)
+
 Issues [Here](https://github.com/ruucm/enhanced-lottie/issues)

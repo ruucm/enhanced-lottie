@@ -9,6 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - name: Build
+        uses: framer/bridge@master
+        with:
+          args: build enhanced-lottie.framerfx
+
       - name: Publish
         uses: framer/bridge@master
         env:
