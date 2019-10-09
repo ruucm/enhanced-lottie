@@ -7,10 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Branch filter
-        uses: actions/bin/filter@master
-        with:
-          args: branch master
       - name: Build
         uses: framer/bridge@master
         env:
