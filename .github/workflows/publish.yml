@@ -14,4 +14,4 @@ jobs:
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: publish enhanced-lottie.framerfx --yes
+          args: publish enhanced-lottie.framerfx --yes --public
