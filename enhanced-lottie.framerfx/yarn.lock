@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@framer/benjamin.slider@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.framer.com/@framer/benjamin.slider/-/@framer/benjamin.slider-1.9.0.tgz#efcf686b34520dbf3b0f3fa7a2035daee2f81901"
+  integrity sha512-RAMN6G62s4MhyTRvR7MigAIinSjzAqcChN9kVLj8zNhd204Sij9EEoNDQUbNgwoweaMMYXx1JyEkfr2FJZn+Yg==
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"

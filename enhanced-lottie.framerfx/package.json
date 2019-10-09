@@ -24,6 +24,7 @@
 	},
 	"author": ". ruucm",
 	"dependencies": {
+		"@framer/benjamin.slider": "^1.9.0",
 		"lottie-web": "^5.5.3",
 		"prop-types": "^15.7.2",
 		"react-lottie": "^1.2.3"
