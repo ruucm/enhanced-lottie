@@ -1,4 +1,4 @@
-Fully Controllable `lottie-web` using Framer X Properties
+Fully Controllable [lottie-web](https://github.com/airbnb/lottie-web) component using Framer X Properties
 
 ## Properties
 
