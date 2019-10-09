@@ -18,5 +18,7 @@ jobs:
 
       - name: Publish
         uses: framer/bridge@master
-        withs:
+        env:
+          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
+        with:
           args: publish enhanced-lottie.framerfx --yes --public
