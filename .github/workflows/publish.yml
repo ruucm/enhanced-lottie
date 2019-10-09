@@ -11,12 +11,12 @@ jobs:
 
       - name: Build
         uses: framer/bridge@master
+        env:
+          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
           args: build enhanced-lottie.framerfx
 
       - name: Publish
         uses: framer/bridge@master
-        env:
-          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
-        with:
+        withs:
           args: publish enhanced-lottie.framerfx --yes --public
