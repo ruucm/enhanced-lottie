@@ -1,0 +1,25 @@
+---
+on: push
+name: Build and publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Branch filter
+        uses: actions/bin/filter@master
+        with:
+          args: branch master
+      - name: Build
+        uses: framer/bridge@master
+        env:
+          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
+        with:
+          args: build enhanced-lottie.framerfx
+      - name: Publish
+        uses: framer/bridge@master
+        env:
+          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
+        with:
+          args: publish enhanced-lottie.framerfx --yes --public
