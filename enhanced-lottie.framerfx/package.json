@@ -19,7 +19,8 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "Enhanced Lottie"
+		"displayName": "Enhanced Lottie",
+		"id": "f4561236-f8de-46bc-9373-d5288c0f250d"
 	},
 	"author": ". ruucm",
 	"dependencies": {
