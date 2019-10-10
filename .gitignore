@@ -16,3 +16,7 @@ node_modules
 *.framerxproj
 .yarnrc
 design
+
+# Test Overrides
+TestApp.tsx
+ScrollApp.tsx
