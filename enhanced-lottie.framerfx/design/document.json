@@ -694,107 +694,6 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 41,
-            "centerAnchorX" : 0.5013333333333333,
-            "centerAnchorY" : 0.92241379310344829,
-            "children" : [
-
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : "@framer\/benjamin.slider\/.\/Slider.tsx_Slider",
-            "codeComponentProps" : {
-              "constrained" : false,
-              "knobSize" : 30,
-              "max" : 42,
-              "min" : 0,
-              "shadow" : "rgba(0,0,0,0.1)",
-              "tint" : "#F81266",
-              "track" : "#DDD",
-              "trackHeight" : 2,
-              "value" : 50
-            },
-            "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/App.tsx",
-            "codeOverrideIdentifier" : ".\/App.tsx_MoveFrameSlider",
-            "codeOverrideName" : "MoveFrameSlider",
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillLinearGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 180,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0,0,0,0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "black"
-                }
-              ]
-            },
-            "fillRadialGradient" : {
-              "__class" : "RadialGradient",
-              "alpha" : 1,
-              "centerAnchorX" : 0.5,
-              "centerAnchorY" : 0.5,
-              "heightFactor" : 0.5,
-              "stops" : [
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 0,
-                  "value" : "rgba(0,0,0,0)"
-                },
-                {
-                  "__class" : "GradientColorStop",
-                  "position" : 1,
-                  "value" : "black"
-                }
-              ],
-              "widthFactor" : 0.5
-            },
-            "fillType" : "color",
-            "height" : 44,
-            "heightType" : 0,
-            "id" : "KHePIERc9",
-            "intrinsicHeight" : 44,
-            "intrinsicWidth" : 120,
-            "left" : 63,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "c2CXk66B9",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : 62,
-            "rotation" : 0,
-            "top" : null,
-            "visible" : true,
-            "width" : 250,
-            "widthType" : 0
-          },
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.49866666666666665,
             "centerAnchorY" : 0.35591133004926107,
@@ -1748,7 +1647,7 @@
         "id" : "qrB058Jkw",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "left" : -1443,
+        "left" : -1330,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -1764,7 +1663,7 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 2049,
+        "top" : 1548,
         "visible" : true,
         "width" : 639,
         "widthType" : 0

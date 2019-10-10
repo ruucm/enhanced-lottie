@@ -54,7 +54,7 @@ export function EnhancedLottie({
 
   useEffect(() => {
     loadLottieData()
-  }, [])
+  }, [lottieJsonURL, loop])
 
   useEffect(() => {
     if (playState == 'pause') setIsPaused(true)
