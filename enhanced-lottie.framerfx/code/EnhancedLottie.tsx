@@ -7,7 +7,7 @@ import Lottie from './Lottie'
 export function EnhancedLottie({
   lottieJsonURL,
   speed,
-  currentFrame,
+  percentage,
   playState,
   direction,
   loop,
@@ -81,7 +81,7 @@ export function EnhancedLottie({
         isPaused={isPaused}
         speed={speed}
         direction={direction == 'normal' ? 1 : -1}
-        currentFrame={currentFrame}
+        percentage={percentage / 100}
       />
     </Frame>
   )
@@ -123,12 +123,17 @@ addPropertyControls(EnhancedLottie, {
     title: 'Loop',
     defaultValue: true,
   },
-  currentFrame: {
+  percentage: {
     type: ControlType.Number,
     defaultValue: 0,
     min: 0,
-    max: 1000,
-    step: 1,
-    displayStepper: true,
+    max: 100,
+    step: 0.1,
+    unit: '%',
+    displayStepper: false,
+    title: 'Frame',
+    hidden(props) {
+      return props.playState !== 'stop'
+    },
   },
 })

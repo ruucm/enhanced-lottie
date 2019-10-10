@@ -81,7 +81,7 @@ export default class Lottie extends React.Component {
   }
 
   goToAndStop() {
-    this.anim.goToAndStop(this.props.currentFrame, true)
+    this.anim.goToAndStop(this.props.percentage * this.anim.totalFrames, true)
   }
 
   stop() {

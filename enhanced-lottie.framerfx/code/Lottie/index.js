@@ -108,6 +108,8 @@ var Lottie = function (_React$Component) {
     value: function componentDidUpdate() {
       if (this.props.isStopped) {
         this.goToAndStop();
+        // this.anim.goToAndStop(50, true)
+        // this.stop()
       } else if (this.props.segments) {
         this.playSegments();
       } else {
@@ -149,7 +151,7 @@ var Lottie = function (_React$Component) {
   }, {
     key: 'goToAndStop',
     value: function goToAndStop() {
-      this.anim.goToAndStop(this.props.currentFrame, true);
+      this.anim.goToAndStop(this.props.percentage * this.anim.totalFrames, true);
     }
   }, {
     key: 'stop',
