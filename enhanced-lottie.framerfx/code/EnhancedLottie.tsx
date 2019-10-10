@@ -95,6 +95,7 @@ addPropertyControls(EnhancedLottie, {
   lottieJsonURL: {
     type: ControlType.File,
     allowedFileTypes: ['json'],
+    title: 'File',
   },
   playState: {
     type: ControlType.SegmentedEnum,
