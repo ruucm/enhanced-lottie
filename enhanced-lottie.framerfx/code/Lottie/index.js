@@ -106,15 +106,7 @@ var Lottie = function (_React$Component) {
   }, {
     key: 'componentDidUpdate',
     value: function componentDidUpdate() {
-      if (this.props.isStopped) {
-        this.goToAndStop();
-        // this.anim.goToAndStop(50, true)
-        // this.stop()
-      } else if (this.props.playSegments) {
-        this.playSegments();
-      } else {
-        this.play();
-      }
+      if (this.props.isStopped) this.goToAndStop();else if (this.props.playSegments) this.playSegments();else this.play();
 
       this.pause();
       this.setSpeed();
