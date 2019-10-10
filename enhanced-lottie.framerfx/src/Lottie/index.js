@@ -46,7 +46,7 @@ export default class Lottie extends React.Component {
       this.goToAndStop()
       // this.anim.goToAndStop(50, true)
       // this.stop()
-    } else if (this.props.segments) {
+    } else if (this.props.playSegments) {
       this.playSegments()
     } else {
       this.play()
@@ -77,7 +77,7 @@ export default class Lottie extends React.Component {
   }
 
   playSegments() {
-    this.anim.playSegments(this.props.segments)
+    this.anim.playSegments(this.props.segments, this.props.playSegments)
   }
 
   goToAndStop() {

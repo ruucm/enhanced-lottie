@@ -11,6 +11,13 @@ export function EnhancedLottie({
   playState,
   direction,
   loop,
+  segmentStart,
+  segmentEnd,
+  playSegments,
+  onComplete,
+  onLoopComplete,
+  onEnterFrame,
+  onSegmentStart,
   ...props
 }) {
   const [animationData, setAnimationData] = useState(null)
@@ -82,6 +89,26 @@ export function EnhancedLottie({
         speed={speed}
         direction={direction == 'normal' ? 1 : -1}
         percentage={percentage / 100}
+        segments={[segmentStart, segmentEnd]}
+        playSegments={playSegments}
+        eventListeners={[
+          {
+            eventName: 'complete',
+            callback: onComplete,
+          },
+          {
+            eventName: 'loopComplete',
+            callback: onLoopComplete,
+          },
+          {
+            eventName: 'enterFrame',
+            callback: onEnterFrame,
+          },
+          {
+            eventName: 'segmentStart',
+            callback: onSegmentStart,
+          },
+        ]}
       />
     </Frame>
   )
@@ -89,6 +116,10 @@ export function EnhancedLottie({
 
 EnhancedLottie.defaultProps = {
   lottieJsonURL: url('/assets/check-animation.json'),
+  onComplete: () => void 0,
+  onLoopComplete: () => void 0,
+  onEnterFrame: () => void 0,
+  onSegmentStart: () => void 0,
 }
 
 addPropertyControls(EnhancedLottie, {
@@ -136,5 +167,32 @@ addPropertyControls(EnhancedLottie, {
     hidden(props) {
       return props.playState !== 'stop'
     },
+  },
+  playSegments: {
+    type: ControlType.Boolean,
+    title: 'Segment',
+    defaultValue: false,
+  },
+  segmentStart: {
+    type: ControlType.Number,
+    min: 0,
+    max: 1000,
+    step: 1,
+    title: '↦ Start',
+    hidden(props) {
+      return props.playSegments === false
+    },
+    defaultValue: 0,
+  },
+  segmentEnd: {
+    type: ControlType.Number,
+    min: 0,
+    max: 1000,
+    step: 1,
+    title: '⇥ End',
+    hidden(props) {
+      return props.playSegments === false
+    },
+    defaultValue: 100,
   },
 })

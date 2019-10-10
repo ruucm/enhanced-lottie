@@ -110,7 +110,7 @@ var Lottie = function (_React$Component) {
         this.goToAndStop();
         // this.anim.goToAndStop(50, true)
         // this.stop()
-      } else if (this.props.segments) {
+      } else if (this.props.playSegments) {
         this.playSegments();
       } else {
         this.play();
@@ -146,7 +146,7 @@ var Lottie = function (_React$Component) {
   }, {
     key: 'playSegments',
     value: function playSegments() {
-      this.anim.playSegments(this.props.segments);
+      this.anim.playSegments(this.props.segments, this.props.playSegments);
     }
   }, {
     key: 'goToAndStop',
