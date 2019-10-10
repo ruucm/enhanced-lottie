@@ -19,14 +19,14 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"displayName": "Enhanced Lottie"
+		"displayName": "Enhanced Lottie",
+		"id": "8fe7e60d-e8f1-4e6e-9897-e09d648cb6ca"
 	},
 	"author": ". ruucm",
 	"dependencies": {
 		"lottie-web": "^5.5.3",
-		"prop-types": "^15.7.2",
-		"react-lottie": "^1.2.3"
+		"prop-types": "^15.7.2"
 	},
 	"name": "@framer/ruucm-h.enhanced-lottie",
-	"version": "1.27.0"
+	"version": "1.30.0"
 }
