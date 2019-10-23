@@ -1,33 +1,22 @@
 {
-	"license": "MIT",
-	"main": "dist/index.js",
-	"scripts": {
-		"start": "babel --watch --copy-files ./src -d ./code"
-	},
-	"devDependencies": {
-		"@types/react": "^16.8",
-		"babel-cli": "^6.26.0",
-		"babel-plugin-transform-class-properties": "^6.24.1",
-		"babel-plugin-transform-runtime": "^6.23.0",
-		"babel-preset-env": "^1.6.1",
-		"babel-preset-es2015": "^6.24.1",
-		"babel-preset-react": "^6.24.1",
-		"babel-preset-stage-0": "^6.24.1",
-		"framer": "^1.0"
-	},
-	"peerDependencies": {
-		"framer": "^1.0",
-		"react": "^16.8"
-	},
-	"framer": {
-		"displayName": "Enhanced Lottie",
-		"id": "8fe7e60d-e8f1-4e6e-9897-e09d648cb6ca"
-	},
-	"author": ". ruucm",
-	"dependencies": {
-		"lottie-web": "^5.5.3",
-		"prop-types": "^15.7.2"
-	},
-	"name": "@framer/ruucm-h.enhanced-lottie",
-	"version": "1.35.0"
+  "license": "MIT",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@types/react": "^16.8"
+  },
+  "peerDependencies": {
+    "framer": "^1.0",
+    "react": "^16.8"
+  },
+  "framer": {
+    "displayName": "Enhanced Lottie",
+    "id": "8fe7e60d-e8f1-4e6e-9897-e09d648cb6ca"
+  },
+  "author": "ruucm yongmin",
+  "dependencies": {
+    "lottie-web": "^5.5.3",
+    "prop-types": "^15.7.2"
+  },
+  "name": "@framer/ruucm-h.enhanced-lottie",
+  "version": "1.35.0"
 }

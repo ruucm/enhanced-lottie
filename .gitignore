@@ -14,8 +14,6 @@ dist
 node_modules
 .npmrc
 *.framerxproj
-.yarnrc
-design
 
 # Test Overrides
 TestApp.tsx
