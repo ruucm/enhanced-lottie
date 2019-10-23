@@ -26,7 +26,7 @@ export function EnhancedLottie({
   const [error, setError] = useState(false)
 
   const loadLottieData = () => {
-    fetch(decodeURIComponent(lottieJsonURL), {
+    fetch(decodeURIComponent(lottieJsonURL.replace('/preview', '')), {
       method: 'GET',
       credentials: 'omit',
       redirect: 'follow',
