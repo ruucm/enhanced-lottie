@@ -115,7 +115,7 @@ export function EnhancedLottie({
 }
 
 EnhancedLottie.defaultProps = {
-  lottieJsonURL: '/assets/check-animation.json',
+  lottieJsonURL: url('/assets/check-animation.json'),
   onComplete: () => void 0,
   onLoopComplete: () => void 0,
   onEnterFrame: () => void 0,
