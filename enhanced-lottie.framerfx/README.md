@@ -1,4 +1,4 @@
-Fully Controllable [lottie-web](https://github.com/airbnb/lottie-web) component using Framer X Properties
+Fully Controllable [lottie-web](https://github.com/airbnb/lottie-web) component using Framer X Properties.
 
 ## Properties
 
@@ -17,9 +17,9 @@ Fully Controllable [lottie-web](https://github.com/airbnb/lottie-web) component 
 
 If you want to change frame dynamically, please make `playState` as `stop` first
 
-Example of Usage - [Enhanced Lottie - Example](https://www.dropbox.com/s/q02rk9ox5zp7euq/Enhanced%20Lottie%20-%20Example.framerx?dl=0)
+Example of Usage - [Enhanced Lottie - Example](https://framer.com/projects/Enhanced-Lottie-Example--gFqg5Ww3kafkTGjZDB5i-i3Y83)
 
-Example of Usage 2 - [Enhanced Lottie - Frame by Frame](https://www.dropbox.com/s/th65lupv184cixx/Enhanced%20Lottie%20-%20Frame%20by%20Frame.framerx?dl=0)
+Example of Usage 2 - [Enhanced Lottie - Frame by Frame](https://framer.com/projects/lottie-repeat-playing--haC5nS4kGqSrsO9bXsPR-gA88e)
 
 ## Contribute this repository
 
