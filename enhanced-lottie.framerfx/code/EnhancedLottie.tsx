@@ -195,4 +195,7 @@ addPropertyControls(EnhancedLottie, {
     },
     defaultValue: 100,
   },
+  onComplete: {
+    type: ControlType.EventHandler,
+  },
 })
