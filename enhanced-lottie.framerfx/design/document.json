@@ -100,15 +100,6 @@
                               "type" : "unstyled"
                             }
                           ],
-                          "cached" : {
-                            "html" : "<div data-offset-key=\"9vr53-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"9vr53-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Black&quot;, &quot;SFProDisplay-Black&quot;, &quot;.SFUIDisplay-Black&quot;, &quot;SF Pro Display&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:899\"><span data-text=\"true\">Play<\/span><\/span><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 19,
-                              "width" : 35
-                            },
-                            "width" : 0
-                          },
                           "entityMap" : {
 
                           }
@@ -293,15 +284,6 @@
                               "type" : "unstyled"
                             }
                           ],
-                          "cached" : {
-                            "html" : "<div data-offset-key=\"9vr53-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"9vr53-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Black&quot;, &quot;SFProDisplay-Black&quot;, &quot;.SFUIDisplay-Black&quot;, &quot;SF Pro Display&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:899\"><span data-text=\"true\">Pause<\/span><\/span><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 19,
-                              "width" : 50
-                            },
-                            "width" : 0
-                          },
                           "entityMap" : {
 
                           }
@@ -486,15 +468,6 @@
                               "type" : "unstyled"
                             }
                           ],
-                          "cached" : {
-                            "html" : "<div data-offset-key=\"9vr53-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"9vr53-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSDisplay-Black&quot;, &quot;SFProDisplay-Black&quot;, &quot;.SFUIDisplay-Black&quot;, &quot;SF Pro Display&quot;, &quot;-apple-system&quot;, &quot;BlinkMacSystemFont&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:0px;line-height:1.2;font-weight:899\"><span data-text=\"true\">Stop<\/span><\/span><\/div>",
-                            "os" : "macos 10_15 framerx",
-                            "size" : {
-                              "height" : 19,
-                              "width" : 39
-                            },
-                            "width" : 0
-                          },
                           "entityMap" : {
 
                           }
@@ -713,6 +686,9 @@
                   "type" : "file",
                   "value" : "design\/assets\/check-animation222.json"
                 },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
                 "$control__percentage" : {
                   "type" : "number",
                   "value" : 0
@@ -736,6 +712,14 @@
                 "$control__speed" : {
                   "type" : "number",
                   "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : ""
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
@@ -891,6 +875,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : 345,
             "locked" : false,
@@ -935,6 +920,9 @@
                   "type" : "file",
                   "value" : "http:\/\/127.0.0.1:4567\/assets\/check-animation.json"
                 },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
                 "$control__percentage" : {
                   "type" : "number",
                   "value" : 0
@@ -958,6 +946,14 @@
                 "$control__speed" : {
                   "type" : "number",
                   "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : ""
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
@@ -1110,6 +1106,7 @@
             "intrinsicWidth" : null,
             "isExternalMaster" : null,
             "isMaster" : false,
+            "isScreen" : true,
             "isTarget" : false,
             "left" : -133,
             "locked" : false,
@@ -1660,6 +1657,9 @@
               "type" : "file",
               "value" : "http:\/\/127.0.0.1:4567\/assets\/check-animation.json"
             },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
             "$control__percentage" : {
               "type" : "number",
               "value" : 100
@@ -1683,6 +1683,14 @@
             "$control__speed" : {
               "type" : "number",
               "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : ""
             },
             "aspectRatio" : null,
             "bottom" : null,
@@ -1745,6 +1753,9 @@
               "type" : "file",
               "value" : "http:\/\/127.0.0.1:4567\/assets\/check-animation.json"
             },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
             "$control__percentage" : {
               "type" : "number",
               "value" : 100
@@ -1768,6 +1779,14 @@
             "$control__speed" : {
               "type" : "number",
               "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : ""
             },
             "aspectRatio" : null,
             "bottom" : null,
@@ -1833,6 +1852,9 @@
               "type" : "file",
               "value" : "design\/assets\/alert-circle.json"
             },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
             "$control__percentage" : {
               "type" : "number",
               "value" : 36.100000000000001
@@ -1856,6 +1878,14 @@
             "$control__speed" : {
               "type" : "number",
               "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : ""
             },
             "aspectRatio" : null,
             "bottom" : null,
@@ -1903,6 +1933,658 @@
             "visible" : true,
             "width" : 350,
             "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.25187969924812054,
+                "centerAnchorY" : 0.18513119533527719,
+                "children" : [
+
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "XtWTwIH5F"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#9ef",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 117,
+                "heightType" : 0,
+                "id" : "LhUHedczl",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : 72,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "nB4yc5Wwo",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 69,
+                "visible" : true,
+                "width" : 125,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "Qga9DNY8K"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "magicMotion"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "fad34104-68df-408e-a8d8-4475fcb51226"
+                    }
+                  ]
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "aspectRatio" : null,
+                "bottom" : 187,
+                "centerAnchorX" : 0.5263157894736844,
+                "centerAnchorY" : 0.58163265306122469,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "kiP8HeEDa"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "tLsdBxFJo",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "nB4yc5Wwo",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 152,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 686,
+            "heightType" : 0,
+            "id" : "nB4yc5Wwo",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -2988,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "jLUPs9gNN-page",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 1089,
+            "visible" : true,
+            "width" : 532,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : 118,
+                "centerAnchorX" : 0.54135338345864681,
+                "centerAnchorY" : 0.6253644314868807,
+                "children" : [
+
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : null,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#9ef",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 278,
+                "heightType" : 0,
+                "id" : "XtWTwIH5F",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "Qga9DNY8K",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 80,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 327,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "nB4yc5Wwo"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 686,
+            "heightType" : 0,
+            "id" : "Qga9DNY8K",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -2340,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "jLUPs9gNN-page",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 1089,
+            "visible" : true,
+            "width" : 532,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "Qga9DNY8K"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "magicMotion"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "7c31ca14-0b84-4190-8ffd-9838386fc9c4"
+                    }
+                  ]
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : ""
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0,
+                "centerAnchorY" : 0,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "QU1SvjIhA"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "SzMInRon9",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 202,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "NFLbUjakV",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 203,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "FrameNode",
+                "aspectRatio" : null,
+                "bottom" : 138,
+                "centerAnchorX" : 0.7836835599505565,
+                "centerAnchorY" : 0.68480000000000019,
+                "children" : [
+
+                ],
+                "clip" : false,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "XtWTwIH5F",
+                  "LhUHedczl"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#9ef",
+                "fillEnabled" : true,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "framePreset" : null,
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
+                "height" : 117,
+                "heightType" : 0,
+                "id" : "QFzJpGd_c",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "isExternalMaster" : null,
+                "isMaster" : false,
+                "isTarget" : false,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "NFLbUjakV",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "replicaInfo" : null,
+                "right" : 112,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 125,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 625,
+            "heightType" : 0,
+            "id" : "NFLbUjakV",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -3121,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "jLUPs9gNN-page",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 1953,
+            "visible" : true,
+            "width" : 809,
+            "widthType" : 0
           }
         ],
         "duplicatedFrom" : null,
@@ -1915,6 +2597,1442 @@
         "homeNodeId" : "u2HdlHIp2",
         "id" : "jLUPs9gNN-page",
         "name" : "Page 1",
+        "originalid" : null,
+        "parentid" : "jLUPs9gNN",
+        "visible" : false
+      },
+      {
+        "__class" : "PageNode",
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : ""
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "Z16znxjQ5"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "Lqzvo3VDP",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -1644,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 2372,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : ""
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "Z16znxjQ5",
+              "Lqzvo3VDP"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "pPZIBD4O_",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -1191,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 2372,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=4397666e-aa26-43e8-a8c2-60ffa3fe0ed5"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.66666666666666685,
+                "centerAnchorY" : 0.44522144522144547,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "johAaEzQw"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "HghGvj5zC",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "bCg_yudot",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 44,
+                "rotation" : 0,
+                "top" : 91,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 429,
+            "heightType" : 0,
+            "id" : "bCg_yudot",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -1341,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 2631,
+            "visible" : true,
+            "width" : 432,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=4397666e-aa26-43e8-a8c2-60ffa3fe0ed5"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.42369838420107742,
+                "centerAnchorY" : 0.40459363957597194,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "uajqwURYy"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "L00PhDga6",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 136,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "I2ydOdVck",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : 129,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=6b4aaba9-e5cc-4245-bae4-ddef913434a5"
+                },
+                "aspectRatio" : null,
+                "bottom" : 0,
+                "centerAnchorX" : 0.50089766606822284,
+                "centerAnchorY" : 0.82332155477031821,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "tyXG1b7TB"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "soISGPcjE",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "I2ydOdVck",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 566,
+            "heightType" : 0,
+            "id" : "I2ydOdVck",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -732,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 2667,
+            "visible" : true,
+            "width" : 557,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=6b4aaba9-e5cc-4245-bae4-ddef913434a5"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.47217235188509898,
+            "centerAnchorY" : 0.88162544169611334,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "tyXG1b7TB",
+              "soISGPcjE",
+              "oELgoB96R"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "JBqXmOkZx",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -1162,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 3517,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=96771114-6b1c-4a19-9a25-2a0b4a2ea362"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.47217235188509898,
+            "centerAnchorY" : 0.88162544169611334,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "tyXG1b7TB",
+              "soISGPcjE",
+              "oELgoB96R"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "xzeNioqYI",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -512,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 3564,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "URL"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=96771114-6b1c-4a19-9a25-2a0b4a2ea362"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.47217235188509898,
+            "centerAnchorY" : 0.88162544169611334,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "tyXG1b7TB",
+              "soISGPcjE",
+              "oELgoB96R",
+              "xzeNioqYI"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "TdptzcmrG",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -1137,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 4052,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file",
+              "value" : "data:framer\/asset-reference,yjj1sWZMvLWrWj47LSb6tgTJyM.json?originalFilename=check-animation222.json"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "File"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=96771114-6b1c-4a19-9a25-2a0b4a2ea362"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.47217235188509898,
+            "centerAnchorY" : 0.88162544169611334,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "tyXG1b7TB",
+              "soISGPcjE",
+              "oELgoB96R",
+              "xzeNioqYI"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "BoIhFH9qF",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : -553,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 3870,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Ffa6a6c8d-6362-4f8f-9e30-ecb99a38207b.json?alt=media&token=6b4aaba9-e5cc-4245-bae4-ddef913434a5"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.59717314487632533,
+                "centerAnchorY" : 0.47787610619469051,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "tyXG1b7TB",
+                  "soISGPcjE"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "oELgoB96R",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "SpIHaq899",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 14,
+                "rotation" : 0,
+                "top" : 62,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 339,
+            "heightType" : 0,
+            "id" : "SpIHaq899",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -887,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 3465,
+            "visible" : true,
+            "width" : 283,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "CodeComponentNode",
+                "$control__direction" : {
+                  "type" : "segmentedenum",
+                  "value" : "normal"
+                },
+                "$control__loop" : {
+                  "type" : "boolean",
+                  "value" : true
+                },
+                "$control__lottieJsonURL" : {
+                  "type" : "file"
+                },
+                "$control__onComplete" : {
+                  "type" : "eventhandler"
+                },
+                "$control__percentage" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__playSegments" : {
+                  "type" : "boolean",
+                  "value" : false
+                },
+                "$control__playState" : {
+                  "type" : "segmentedenum",
+                  "value" : "play"
+                },
+                "$control__segmentEnd" : {
+                  "type" : "number",
+                  "value" : 100
+                },
+                "$control__segmentStart" : {
+                  "type" : "number",
+                  "value" : 0
+                },
+                "$control__speed" : {
+                  "type" : "number",
+                  "value" : 1
+                },
+                "$control__srcType" : {
+                  "type" : "segmentedenum",
+                  "value" : "URL"
+                },
+                "$control__url" : {
+                  "type" : "string",
+                  "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Fbbde0708-f331-4a0a-8825-b9a3cd7228ea.json?alt=media&token=fff86100-902d-49d1-8fbf-3ba504775b50"
+                },
+                "aspectRatio" : null,
+                "bottom" : 31,
+                "centerAnchorX" : 0.55023923444976097,
+                "centerAnchorY" : 0.5801282051282054,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+                "codeComponentPackageVersion" : null,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "mdt7Grl2f"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 200,
+                "heightType" : 0,
+                "id" : "aphTQQKfz",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : null,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "ZEiB509zG",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 88,
+                "rotation" : 0,
+                "top" : null,
+                "visible" : true,
+                "width" : 200,
+                "widthType" : 0
+              }
+            ],
+            "clip" : true,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "white",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 312,
+            "heightType" : 0,
+            "id" : "ZEiB509zG",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : -683,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 4252,
+            "visible" : true,
+            "width" : 418,
+            "widthType" : 0
+          },
+          {
+            "__class" : "CodeComponentNode",
+            "$control__direction" : {
+              "type" : "segmentedenum",
+              "value" : "normal"
+            },
+            "$control__loop" : {
+              "type" : "boolean",
+              "value" : true
+            },
+            "$control__lottieJsonURL" : {
+              "type" : "file"
+            },
+            "$control__onComplete" : {
+              "type" : "eventhandler"
+            },
+            "$control__percentage" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__playSegments" : {
+              "type" : "boolean",
+              "value" : false
+            },
+            "$control__playState" : {
+              "type" : "segmentedenum",
+              "value" : "play"
+            },
+            "$control__segmentEnd" : {
+              "type" : "number",
+              "value" : 100
+            },
+            "$control__segmentStart" : {
+              "type" : "number",
+              "value" : 0
+            },
+            "$control__speed" : {
+              "type" : "number",
+              "value" : 1
+            },
+            "$control__srcType" : {
+              "type" : "segmentedenum",
+              "value" : "File"
+            },
+            "$control__url" : {
+              "type" : "string",
+              "value" : "https:\/\/firebasestorage.googleapis.com\/v0\/b\/moko-app-bee21.appspot.com\/o\/json%2Fbbde0708-f331-4a0a-8825-b9a3cd7228ea.json?alt=media&token=fff86100-902d-49d1-8fbf-3ba504775b50"
+            },
+            "aspectRatio" : null,
+            "bottom" : null,
+            "centerAnchorX" : 0.63157894736842124,
+            "centerAnchorY" : 0.5801282051282054,
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/EnhancedLottie.tsx_EnhancedLottie",
+            "codeComponentPackageVersion" : null,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : [
+              "mdt7Grl2f",
+              "aphTQQKfz"
+            ],
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 200,
+            "heightType" : 0,
+            "id" : "LmmfFM15P",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 16,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "T_hK7GB5S",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 4333,
+            "visible" : true,
+            "width" : 200,
+            "widthType" : 0
+          }
+        ],
+        "duplicatedFrom" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "homeNodeId" : "bCg_yudot",
+        "id" : "T_hK7GB5S",
+        "name" : "Page 2",
         "originalid" : null,
         "parentid" : "jLUPs9gNN",
         "visible" : false
@@ -1934,5 +4052,5 @@
     ],
     "visible" : false
   },
-  "version" : 74
+  "version" : 75
 }

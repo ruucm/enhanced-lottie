@@ -4,7 +4,14 @@ import { Frame, useCycle, addPropertyControls, ControlType } from 'framer'
 import { url } from 'framer/resource'
 import Lottie from './Lottie'
 
+enum SrcType {
+  File = "File",
+  Url = "URL",
+}
+
 export function EnhancedLottie({
+  srcType,
+  url,
   lottieJsonURL,
   speed,
   percentage,
@@ -24,9 +31,12 @@ export function EnhancedLottie({
   const [isStopped, setIsStopped] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
   const [error, setError] = useState(false)
+  const targetUrl = srcType === SrcType.Url ? url : decodeURIComponent(lottieJsonURL.replace('/preview', ''))
+
+  console.log('targetUrl', targetUrl)
 
   const loadLottieData = () => {
-    fetch(decodeURIComponent(lottieJsonURL.replace('/preview', '')), {
+    fetch(targetUrl, {
       method: 'GET',
       credentials: 'omit',
       redirect: 'follow',
@@ -61,7 +71,7 @@ export function EnhancedLottie({
 
   useEffect(() => {
     loadLottieData()
-  }, [lottieJsonURL, loop])
+  }, [targetUrl, loop])
 
   useEffect(() => {
     if (playState == 'pause') setIsPaused(true)
@@ -115,6 +125,7 @@ export function EnhancedLottie({
 }
 
 EnhancedLottie.defaultProps = {
+  url: "https://firebasestorage.googleapis.com/v0/b/moko-app-bee21.appspot.com/o/json%2Fbbde0708-f331-4a0a-8825-b9a3cd7228ea.json?alt=media&token=fff86100-902d-49d1-8fbf-3ba504775b50",
   lottieJsonURL: url('/assets/check-animation.json'),
   onComplete: () => void 0,
   onLoopComplete: () => void 0,
@@ -122,11 +133,29 @@ EnhancedLottie.defaultProps = {
   onSegmentStart: () => void 0,
 }
 
+
+
 addPropertyControls(EnhancedLottie, {
+  srcType: {
+    type: ControlType.SegmentedEnum,
+    title: "Source",
+    options: [SrcType.Url, SrcType.File],
+  },
+  url: {
+    type: ControlType.String,
+    title: ' ',
+    placeholder: ".../example.json",
+    hidden(props) {
+      return props.srcType === SrcType.File
+    },
+  },
   lottieJsonURL: {
     type: ControlType.File,
     allowedFileTypes: ['json'],
-    title: 'File',
+    title: ' ',
+    hidden(props) {
+      return props.srcType === SrcType.Url
+    },
   },
   playState: {
     type: ControlType.SegmentedEnum,
