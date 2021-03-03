@@ -33,8 +33,6 @@ export function EnhancedLottie({
   const [error, setError] = useState(false)
   const targetUrl = srcType === SrcType.Url ? url : decodeURIComponent(lottieJsonURL.replace('/preview', ''))
 
-  console.log('targetUrl', targetUrl)
-
   const loadLottieData = () => {
     fetch(targetUrl, {
       method: 'GET',
